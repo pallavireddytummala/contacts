@@ -8,7 +8,7 @@ import { FaPhoneAlt, FaEnvelope, FaMapMarkerAlt } from 'react-icons/fa';
 
 function App() {
   return (
-    <Container fluid style={{ paddingLeft: '-10px', paddingRight: '-10px' }}>
+    <Container fluid style={{ paddingLeft: 0, paddingRight: 0 }}>
       <Row className="my-4">
         <Col className="text-center">
           <h1>Contact Us</h1>
@@ -128,7 +128,6 @@ function App() {
           </Row>
         </Tab>
       </Tabs>
-      <br/>
       <Row className="bg-light p-4 rounded">
         <Col md={6}>
           <h2>We'd love to hear from you.</h2>
@@ -179,7 +178,6 @@ function App() {
           </Form>
         </Col>
       </Row>
-      <div className="my-4"></div>
       <Row className="text-center">
         <Col md={6} className="d-flex align-items-center justify-content-center">
           <Image src={berg} roundedCircle className="img-fluid small-img" alt="Berg Devien" />
