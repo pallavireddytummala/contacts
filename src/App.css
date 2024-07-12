@@ -106,6 +106,7 @@ a:hover {
   flex-direction: row;
   text-align: left;
   padding: 20px;
+  flex-wrap: wrap;
 }
 
 .contact-item:not(:last-child) {
@@ -146,4 +147,22 @@ p {
   font-size: 24px;
   font-weight: bold;
   color: #24272C;
+}
+@media (max-width: 576px) { /* Extra small devices (phones, 576px and down) */
+  .contact-item {
+    text-align: center; /* Center align for small screens */
+    
+  }
+
+  .icon-circle {
+    margin-bottom: 0; /* No margin between icon and text */
+  }
+
+  .contact-text {
+    text-align: center; /* Center align text */
+  }
+
+  .contact-item .icon-circle {
+    margin-bottom: 10px; /* Space between icon and text */
+  }
 }
