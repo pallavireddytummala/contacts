@@ -160,8 +160,8 @@ function App() {
       <br/>
       <Container className="contact-section">
       <h2 className="text-left mb-4">Your contact</h2>
-        <Row className="text-center my-4">
-          <Col xs={12} md={6} className="d-flex align-items-center justify-content-center mb-4 mb-md-0">
+        <Row className="my-4">
+          <Col xs={12} md={5} className="d-flex align-items-center mb-4 mb-md-0">
             <Image src={berg} className="img-fluid small-img" alt="Berg Devien" />
             <div className="ms-3">
               <h5>Berg Devien</h5>
@@ -170,7 +170,7 @@ function App() {
               <p>Skype: <a href="skype:berg.consulting">berg.consulting</a></p>
             </div>
           </Col>
-          <Col xs={12} md={6} className="d-flex align-items-center justify-content-center">
+          <Col xs={12} md={5}className="d-flex align-items-center">
             <Image src={pris} className="img-fluid small-img" alt="Priscilla Sorvino" />
             <div className="ms-3">
               <h5>Priscilla Sorvino</h5>
