@@ -6,7 +6,7 @@ import berg from './berg.jpg';
 import pris from './pris.jpg';
 import { FaPhoneAlt, FaEnvelope, FaMapMarkerAlt } from 'react-icons/fa';
 import Header from './header.js';
-
+import '@fortawesome/fontawesome-free/css/all.css'
 function App() {
   return (
     <Container fluid style={{ paddingLeft: 0, paddingRight: 0 }}>
@@ -114,12 +114,12 @@ function App() {
               If you are experiencing technical difficulties or need assistance with one of our services,
             </p>
             <ul className="list-unstyled">
-              <li><i className="fas fa-check-circle text-primary"></i> Client-oriented</li>
-              <li><i className="fas fa-check-circle text-primary"></i> Competent</li>
-              <li><i className="fas fa-check-circle text-primary"></i> Problem-solving</li>
-              <li><i className="fas fa-check-circle text-primary"></i> Independent</li>
-              <li><i className="fas fa-check-circle text-primary"></i> Results-driven</li>
-              <li><i className="fas fa-check-circle text-primary"></i> Transparent</li>
+              <li><i className="fas fa-check-circle text-success"></i> Client-oriented</li>
+              <li><i className="fas fa-check-circle text-success"></i> Competent</li>
+              <li><i className="fas fa-check-circle text-success"></i> Problem-solving</li>
+              <li><i className="fas fa-check-circle text-success"></i> Independent</li>
+              <li><i className="fas fa-check-circle text-success"></i> Results-driven</li>
+              <li><i className="fas fa-check-circle text-success"></i> Transparent</li>
             </ul>
           </Col>
           <Col md={6}>
