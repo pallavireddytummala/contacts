@@ -6,13 +6,13 @@ body {
   font-size: 16px;
   line-height: 1.6;
   color: #24272C;
-  background-color: #F2F2F2;
+  background-color: #ffffff;
   margin: 0;
-  padding: 20px;
+  padding: 70px;
 }
 
 /* Container styles */
-.Container {
+.container {
   max-width: 80%;
   margin: 0 auto;
   padding-left: 0;
@@ -21,6 +21,7 @@ body {
 
 /* Tabs styles */
 .nav-tabs .nav-link {
+  text-align: center;
   color: #24272C; /* Default color */
   background-color: #3DB166; /* Initial background color */
   border: none;
@@ -74,10 +75,75 @@ a:hover {
 /* Form styles */
 .form-control {
   border-color: #CED4DA;
+  background-color: #F0F0F0; /* Grey background color */
   border-radius: 6px;
 }
 
 .form-control:focus {
   border-color: #3DB166;
   box-shadow: 0 0 0 0.2rem rgba(61, 177, 102, 0.25);
+}
+
+/* Image styles */
+.img-fluid.small-img {
+  max-width: 60px;  /* Adjust as needed */
+  height: 70px; /* Set height to match the text height */
+  object-fit: cover; /* Ensure images cover the entire area */
+  border-radius: 6px; /* Optional: Add rounded corners */
+}
+
+.contact-info {
+  background-color: #ffffff;
+  border: 1px solid #e0e0e0; /* Grey border */
+  border-radius: 10px;
+  padding: 30px;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  text-align: left;
+  padding: 20px;
+}
+
+.contact-item:not(:last-child) {
+  border-right: 1px solid #e0e0e0; /* Grey partition line */
+}
+
+.icon-circle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60px;
+  height: 60px;
+  background-color: #f0f0f0;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.contact-icon {
+  font-size: 2em;
+  color: #3DB166; /* Change the icon color here */
+}
+
+.contact-text {
+  text-align: left;
+}
+
+h5 {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+p {
+  margin: 0;
+  color: #6c757d;
+}
+
+.contact-section h3 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #24272C;
 }
