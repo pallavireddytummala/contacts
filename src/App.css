@@ -165,4 +165,8 @@ p {
   .contact-item .icon-circle {
     margin-bottom: 10px; /* Space between icon and text */
   }
+  .contact-item:not(:last-child) {
+    border-right: 1px solid #ffffff; /* Grey partition line */
+  }
+  
 }
