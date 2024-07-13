@@ -1,3 +1,6 @@
+//Header.js
+
+
 import React from 'react';
 import './header.css';
 
@@ -5,7 +8,7 @@ function Header() {
   return (
     <header className="header">
       <div className="header-content">
-        <div className="header-info">
+      <div className="header-info">
           Consulting WP<span className="header-bullet"></span>
           New York<span className="header-bullet"></span>
           Services
@@ -21,4 +24,4 @@ function Header() {
   );
 }
 
-export default Header;
+export default Header;
