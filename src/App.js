@@ -6,7 +6,8 @@ import berg from './berg.jpg';
 import pris from './pris.jpg';
 import { FaPhoneAlt, FaEnvelope, FaMapMarkerAlt } from 'react-icons/fa';
 import Header from './header.js';
-import '@fortawesome/fontawesome-free/css/all.css'
+import '@fortawesome/fontawesome-free/css/all.css';
+
 function App() {
   return (
     <Container fluid style={{ paddingLeft: 0, paddingRight: 0 }}>
@@ -105,41 +106,50 @@ function App() {
         </Row>
       </Container>
       <br/>
-          <Container className="contact-section bg-light p-4 rounded">
+      <Container className="contact-section bg-light p-4 rounded">
         <Row>
           <Col md={6} className="mb-4 mb-md-0">
-            <h2>We'd love to hear from you.</h2>
-            <p>
+            <h1>We'd love to hear from you.</h1>
+            <h6>
               At our IT solution company, we are committed to providing exceptional customer service and support.
               If you are experiencing technical difficulties or need assistance with one of our services,
-            </p>
-            <ul className="list-unstyled">
-              <li><i className="fas fa-check-circle text-success"></i> Client-oriented</li>
-              <li><i className="fas fa-check-circle text-success"></i> Competent</li>
-              <li><i className="fas fa-check-circle text-success"></i> Problem-solving</li>
-              <li><i className="fas fa-check-circle text-success"></i> Independent</li>
-              <li><i className="fas fa-check-circle text-success"></i> Results-driven</li>
-              <li><i className="fas fa-check-circle text-success"></i> Transparent</li>
-            </ul>
+            </h6>
+            <h4>Your benefits:</h4>
+            <table borderless>
+              <tbody>
+                <tr>
+                <th><h6><i className="fas fa-check-circle text-success"></i> Client-oriented</h6></th>
+                <th><h6><i className="fas fa-check-circle text-success"></i> Competent</h6></th>
+                </tr>
+                <tr>
+                <th><h6><i className="fas fa-check-circle text-success"></i> Problem-solving</h6></th>
+                <th><h6><i className="fas fa-check-circle text-success"></i> Independent</h6></th>
+                </tr>
+                <tr>
+                  
+                <th><h6><i className="fas fa-check-circle text-success"></i> Results-driven</h6></th>
+                <th><h6><i className="fas fa-check-circle text-success"></i> Transparent</h6></th>
+                </tr>
+              </tbody>
+            </table>
+            
+              
           </Col>
           <Col md={6}>
             <Form>
               <Row className="mb-3">
                 <Col xs={12} md={6}>
                   <Form.Group controlId="formName">
-                    <Form.Label>Your Name</Form.Label>
-                    <Form.Control type="text" placeholder="Enter your name" />
+                    <Form.Control type="text" placeholder="Your Name" />
                   </Form.Group>
                 </Col>
                 <Col xs={12} md={6}>
                   <Form.Group controlId="formEmail">
-                    <Form.Label>Email Address</Form.Label>
-                    <Form.Control type="email" placeholder="Enter your email" />
+                    <Form.Control type="email" placeholder="Email Address" />
                   </Form.Group>
                 </Col>
               </Row>
               <Form.Group controlId="formSubject" className="mb-3">
-                <Form.Label>Subject</Form.Label>
                 <Form.Control as="select">
                   <option>Basic</option>
                   <option>Technical Support</option>
@@ -147,10 +157,9 @@ function App() {
                 </Form.Control>
               </Form.Group>
               <Form.Group controlId="formMessage" className="mb-3">
-                <Form.Label>Message</Form.Label>
-                <Form.Control as="textarea" rows={3} placeholder="Enter your message" />
+                <Form.Control as="textarea" rows={3} placeholder="Message" />
               </Form.Group>
-              <Button variant="primary" type="submit">
+              <Button variant="primary" type="submit" className="w-100">
                 Submit Message
               </Button>
             </Form>
