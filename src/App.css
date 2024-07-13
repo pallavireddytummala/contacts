@@ -118,7 +118,7 @@ a:hover {
   justify-content: center;
   width: 60px;
   height: 60px;
-  background-color: #f0f0f0;
+  background-color: #e0f7ea;
   border-radius: 50%;
   margin-right: 15px;
 }
@@ -183,6 +183,10 @@ p {
   font-weight: bold;
   color: #24272C;
 }
+.col-md-1 {
+  flex: 0 0 auto;
+  width: 50%;
+}
 @media (max-width: 576px) { /* Extra small devices (phones, 576px and down) */
   .contact-item {
     text-align: center; /* Center align for small screens */
@@ -210,5 +214,8 @@ p {
   .d-flex{
     flex-direction: column;
   }
-  
+  .col-6 {
+    /* flex: 0 0 auto; */
+    width: 100%;
+}
 }
