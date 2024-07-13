@@ -168,5 +168,12 @@ p {
   .contact-item:not(:last-child) {
     border-right: 1px solid #ffffff; /* Grey partition line */
   }
+  .ms-3{
+    margin-left: auto;
+  }
+  
+  .d-flex{
+    flex-direction: column;
+  }
   
 }
