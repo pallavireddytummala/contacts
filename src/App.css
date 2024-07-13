@@ -188,6 +188,9 @@ p {
   width: 50%;
 }
 @media (max-width: 576px) { /* Extra small devices (phones, 576px and down) */
+  .container{
+    max-width:100%;
+  }
   .contact-item {
     text-align: center; /* Center align for small screens */
     
