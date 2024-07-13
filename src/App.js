@@ -115,23 +115,27 @@ function App() {
               If you are experiencing technical difficulties or need assistance with one of our services,
             </h6>
             <h4>Your benefits:</h4>
-            <table borderless>
-              <tbody>
-                <tr>
-                <th><h6><i className="fas fa-check-circle text-success"></i> Client-oriented</h6></th>
-                <th><h6><i className="fas fa-check-circle text-success"></i> Competent</h6></th>
-                </tr>
-                <tr>
-                <th><h6><i className="fas fa-check-circle text-success"></i> Problem-solving</h6></th>
-                <th><h6><i className="fas fa-check-circle text-success"></i> Independent</h6></th>
-                </tr>
-                <tr>
-                  
-                <th><h6><i className="fas fa-check-circle text-success"></i> Results-driven</h6></th>
-                <th><h6><i className="fas fa-check-circle text-success"></i> Transparent</h6></th>
-                </tr>
-              </tbody>
-            </table>
+            <Row className="justify-content-start">
+              <Col xs={6} sm={2} md={1}>
+                <p><i className="fas fa-check-circle text-success"></i> Client-oriented</p>
+              </Col>
+              <Col xs={6} sm={2} md={1}>
+                <p><i className="fas fa-check-circle text-success"></i> Competent</p>
+              </Col>
+              <Col xs={6} sm={2} md={1}>
+                <p><i className="fas fa-check-circle text-success"></i> Problem-solving</p>
+              </Col>
+              <Col xs={6} sm={2} md={1}>
+                <p><i className="fas fa-check-circle text-success"></i> Independent</p>
+              </Col>
+              <Col xs={6} sm={2} md={1}>
+                <p><i className="fas fa-check-circle text-success"></i> Results-driven</p>
+              </Col>
+              <Col xs={6} sm={2} md={1}>
+                <p><i className="fas fa-check-circle text-success"></i> Transparent</p>
+              </Col>
+            </Row>
+            
             
               
           </Col>
