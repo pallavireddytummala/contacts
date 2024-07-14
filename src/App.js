@@ -13,7 +13,7 @@ function App() {
     
     <Container fluid style={{ paddingLeft: 0, paddingRight: 0 }}>
       <Header /> 
-      <Row className="my-4">
+      <Row className="my1-4">
         <Col className="text-center">
         </Col>
       </Row>
