@@ -246,11 +246,15 @@ h6{
 }
 
 
-@media (max-width: 576px) { /* Extra small devices (phones, 576px and down) */
+@media (max-width: 768px) { /* Extra small devices (phones, 576px and down) */
   .container{
     max-width: 300%;
   }
+  
 
+.p-4 {
+  padding: 1rem !important;
+}
   .contact-item {
     text-align: center; /* Center align for small screens */
     
