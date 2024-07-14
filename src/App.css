@@ -18,9 +18,8 @@ body {
 
 /* Container styles */
 .container {
-  margin: 0 auto;
+  margin: 0 auto 0;
   max-width: 80%;
-  margin-left: 8%;
 }
 
 /* Tabs styles */
