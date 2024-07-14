@@ -14,9 +14,7 @@ body {
 
 /* Container styles */
 .container {
-  max-width: 80%;
-
- 
+  max-width: 90%;
 }
 
 /* Tabs styles */
@@ -303,10 +301,5 @@ h6{
   }
   .contact-item:not(:last-child) {
     border-right: 1px solid #ffffff; /* Grey partition line */
-  }
-}
-@media (min-width: 576px) {
-  .container, .container-sm {
-      max-width: 90%;
   }
 }
