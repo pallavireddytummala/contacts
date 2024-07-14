@@ -15,7 +15,7 @@
   margin: 0 auto; /* Center horizontally */
   position: absolute; /* Allows precise positioning */
   top: 50%; /* Vertically center the content */
-  left: 10%; /* Adjust this value to match .content margin */
+  left: 13%; /* Adjust this value to match .content margin */
   transform: translateY(-50%); /* Adjust for vertical centering */
 }
 
@@ -36,7 +36,6 @@
   color: white;
   font-weight: bold;
   position: relative;
-  margin: 0 10px; /* Space between links */
 }
 
 .header-bullet {
@@ -53,6 +52,7 @@
   color: rgba(255, 255, 255, 0.7); /* Less bright white color */
   margin-bottom: 5px; /* Space between this text and the heading */
   text-align: left; /* Left-align the breadcrumb text */
+
 }
 
 .header-underline {
@@ -77,7 +77,6 @@
 
   .header-link {
     font-size: 0.9em; /* Slightly smaller font size */
-    margin: 0 8px; /* Adjust spacing */
   }
 }
 
@@ -88,7 +87,7 @@
 
   .header-content {
     width: 90%; /* Adjust width for smaller screens */
-    left: 5%; /* Adjust for smaller screens */
+ 
   }
 
   .header-nav {
@@ -99,7 +98,6 @@
 
   .header-link {
     font-size: 0.8em; /* Smaller font size */
-    margin: 5px 0; /* Adjust spacing */
   }
 
   .header-logo img {
@@ -114,7 +112,7 @@
 
   .header-content {
     width: 90%; /* Adjust width for smaller screens */
-    left: 5%; /* Further adjust for smaller screens */
+
   }
 
   .header-nav {
@@ -125,7 +123,6 @@
 
   .header-link {
     font-size: 0.7em; /* Smaller font size */
-    margin: 5px 0; /* Adjust spacing */
   }
 
   .header-info {
