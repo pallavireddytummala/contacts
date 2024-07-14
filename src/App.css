@@ -293,3 +293,8 @@ h6{
     width: 100%;
 }
 }
+@media (max-width: 370px){
+  .contact-item{
+  flex-direction: column;
+  }
+} 
