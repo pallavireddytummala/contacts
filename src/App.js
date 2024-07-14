@@ -106,40 +106,37 @@ function App() {
         </Row>
       </Container>
       <br/>
-      <Container className="contact-section bg-light p-4 rounded">
-        <Row>
-          <Col md={6} className="mb-4 mb-md-0">
-            <h1>We'd love to hear from you.</h1>
-            <h6>
-              At our IT solution company, we are committed to providing exceptional customer service and support.
-              If you are experiencing technical difficulties or need assistance with one of our services,
-            </h6>
-            <h4>Your benefits:</h4>
-            <Row className="justify-content-start">
-              <Col xs={6} sm={2} md={1}>
-                <p><i className="fas fa-check-circle text-success"></i> Client-oriented</p>
-              </Col>
-              <Col xs={6} sm={2} md={1}>
-                <p><i className="fas fa-check-circle text-success"></i> Competent</p>
-              </Col>
-              <Col xs={6} sm={2} md={1}>
-                <p><i className="fas fa-check-circle text-success"></i> Problem-solving</p>
-              </Col>
-              <Col xs={6} sm={2} md={1}>
-                <p><i className="fas fa-check-circle text-success"></i> Independent</p>
-              </Col>
-              <Col xs={6} sm={2} md={1}>
-                <p><i className="fas fa-check-circle text-success"></i> Results-driven</p>
-              </Col>
-              <Col xs={6} sm={2} md={1}>
-                <p><i className="fas fa-check-circle text-success"></i> Transparent</p>
-              </Col>
-            </Row>
-            
-            
-              
-          </Col>
-          <Col md={6}>
+      <Container className="contact-section bg-light p-4 rounded shadow-sm">
+  <Row>
+    <Col md={6} className="mb-4 mb-md-0">
+      <h1 className="display-5 text-black">We'd love to hear from you.</h1>
+      <h6 className="font-weight-normal text-grey">
+        At our IT solution company, we are committed to providing exceptional customer service and support.
+        If you are experiencing technical difficulties or need assistance with one of our services,
+      </h6>
+      <h4 className="text-black">Your benefits:</h4>
+      <Row className="gy-2">
+        <Col xs={6} sm={2} md={1}>
+          <p className="text-grey"><i className="fas fa-check-circle text-success"></i> Client-oriented</p>
+        </Col>
+        <Col xs={6} sm={2} md={1}>
+          <p className="text-grey"><i className="fas fa-check-circle text-success"></i> Competent</p>
+        </Col>
+        <Col xs={6} sm={2} md={1}>
+          <p className="text-grey"><i className="fas fa-check-circle text-success"></i> Problem-solving</p>
+        </Col>
+        <Col xs={6} sm={2} md={1}>
+          <p className="text-grey"><i className="fas fa-check-circle text-success"></i> Independent</p>
+        </Col>
+        <Col xs={6} sm={2} md={1}>
+          <p className="text-grey"><i className="fas fa-check-circle text-success"></i> Results-driven</p>
+        </Col>
+        <Col xs={6} sm={2} md={1}>
+          <p className="text-grey"><i className="fas fa-check-circle text-success"></i> Transparent</p>
+        </Col>
+      </Row>
+    </Col>
+    <Col md={6}>
             <Form>
               <Row className="mb-3">
                 <Col xs={12} md={6}>
@@ -154,12 +151,13 @@ function App() {
                 </Col>
               </Row>
               <Form.Group controlId="formSubject" className="mb-3">
-                <Form.Control as="select">
-                  <option>Basic</option>
-                  <option>Technical Support</option>
-                  <option>Sales</option>
-                </Form.Control>
-              </Form.Group>
+  <Form.Control as="select" className="custom-select">
+    <option>Basic</option>
+    <option>Technical Support</option>
+    <option>Sales</option>
+  </Form.Control>
+</Form.Group>
+
               <Form.Group controlId="formMessage" className="mb-3">
                 <Form.Control as="textarea" rows={3} placeholder="Message" />
               </Form.Group>
@@ -168,8 +166,9 @@ function App() {
               </Button>
             </Form>
           </Col>
-        </Row>
-      </Container>
+  </Row>
+</Container>
+
       <br/>
       <Container className="contact-section">
       <h2 className="text-left mb-4">Your contact</h2>
