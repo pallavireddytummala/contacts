@@ -11,6 +11,10 @@ body {
   margin: 0;
 
 }
+.my1-4 {
+  /* margin-bottom: 1.5rem !important; */
+  margin-top: 1.5rem !important;
+}
 
 /* Container styles */
 .container {
@@ -79,6 +83,7 @@ a:hover {
   border-color: #CED4DA;
   border-radius: 6px;
   line-height: 2.5;
+  margin-bottom: 1rem !important;
 }
 h4{
   line-height: inherit;
