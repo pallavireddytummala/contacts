@@ -14,7 +14,9 @@ body {
 
 /* Container styles */
 .container {
-  max-width: 90%;
+  margin: 0 auto;
+  max-width: 80%;
+  margin-left: 8%;
 }
 
 /* Tabs styles */
@@ -159,6 +161,10 @@ p {
     border: none;
   }
 }
+.col-md-5 {
+  flex: 0 0 auto;
+  width: 33%;
+}
 .nav-tabs {
   --bs-nav-tabs-border-width: var(--bs-border-width);
   --bs-nav-tabs-border-color: #f8f9fa;
@@ -245,10 +251,13 @@ h6{
 
 
 @media (max-width: 768px) { /* Extra small devices (phones, 576px and down) */
- 
-
-  
-
+  .container {
+    max-width: 85%;
+  }
+  .col-md-5 {
+    flex: 0 0 auto;
+    width: auto;
+}
 .p-4 {
   padding: 1rem !important;
 }
@@ -258,7 +267,7 @@ h6{
     
   }
  
-  
+ 
 .custom-tab1 .nav-item {
   flex: 1 1; 
   display: flex;
@@ -301,5 +310,10 @@ h6{
   }
   .contact-item:not(:last-child) {
     border-right: 1px solid #ffffff; /* Grey partition line */
+  }
+}
+@media (max-width:475px){
+  .container{
+    max-width: 85%;
   }
 }
