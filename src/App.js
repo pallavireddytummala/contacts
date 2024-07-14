@@ -150,7 +150,7 @@ function App() {
                   </Form.Group>
                 </Col>
               </Row>
-              <Form.Group controlId="formSubject" className="mb-3">
+              <Form.Group controlId="formSubject" >
   <Form.Control as="select" className="custom-select">
     <option>Basic</option>
     <option>Technical Support</option>
