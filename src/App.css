@@ -257,8 +257,10 @@ h6{
 }
   .contact-item {
     text-align: center; /* Center align for small screens */
+    flex-wrap: nowrap;
     
   }
+ 
   
 .custom-tab1 .nav-item {
   flex: 1 1; 
