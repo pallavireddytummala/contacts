@@ -20,8 +20,8 @@ function App() {
       <Container className="contact-section">
         <Row className="justify-content-center">
           <Col>
-            <Tabs defaultActiveKey="new-york" id="office-tabs" className="mb-3 justify-content-center custom-tabs">
-              <Tab eventKey="new-york" title="New York Office">
+            <Tabs defaultActiveKey="new-york" id="office-tabs" className="mb-3 justify-content-center custom-tab1">
+              <Tab eventKey="new-york" title="New York Office" >
                 <Row className="justify-content-center">
                   <Col md={12}>
                     <div className="contact-info p-4">
@@ -61,7 +61,7 @@ function App() {
                   </Col>
                 </Row>
               </Tab>
-              <Tab eventKey="washington" title="Washington Office">
+              <Tab eventKey="washington" title="Washington Office" >
                 <Row className="justify-content-center">
                   <Col md={12}>
                     <div className="contact-info p-4">
