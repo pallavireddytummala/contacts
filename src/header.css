@@ -1,3 +1,5 @@
+
+
 .header {
   background-image: url('./header-background.jpg');
   background-size: cover;
@@ -5,8 +7,6 @@
   display: flex;
   align-items: center; /* Center vertically */
   position: relative;
-  margin-left: -70px;
-  margin-right: -70px;
 }
 
 .header-content {
