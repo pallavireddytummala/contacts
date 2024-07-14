@@ -1,6 +1,7 @@
 /* App.css */
 
 /* Body styles */
+
 body {
   font-family: 'Poppins', sans-serif;
   font-size: 16px;
@@ -8,15 +9,14 @@ body {
   color: #24272C;
   background-color: #ffffff;
   margin: 0;
-  padding: 70px;
+
 }
 
 /* Container styles */
 .container {
   max-width: 80%;
   margin: 0 auto;
-  padding-left: 0;
-  padding-right: 0;
+ 
 }
 
 /* Tabs styles */
@@ -247,9 +247,8 @@ h6{
 
 
 @media (max-width: 768px) { /* Extra small devices (phones, 576px and down) */
-  .container{
-    max-width: 300%;
-  }
+ 
+
   
 
 .p-4 {
@@ -285,16 +284,24 @@ h6{
     margin-left: auto;
   }
   
-  .d-flex{
-    flex-direction: column;
-  }
+
   .col-6 {
     /* flex: 0 0 auto; */
     width: 100%;
 }
+
 }
 @media (max-width: 370px){
   .contact-item{
   flex-direction: column;
   }
 } 
+@media (max-width: 850px) {
+  .col-md-4 {
+      flex: 0 0 auto;
+      width: 100%;
+  }
+  .contact-item:not(:last-child) {
+    border-right: 1px solid #ffffff; /* Grey partition line */
+  }
+}
