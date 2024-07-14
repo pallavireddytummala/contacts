@@ -47,7 +47,9 @@ body {
   border-radius: 6px;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
-
+h6{
+  color: #6c757d;
+}
 /* Button styles */
 .btn-primary {
   background-color: #3DB166;
@@ -76,6 +78,10 @@ a:hover {
 .form-control {
   border-color: #CED4DA;
   border-radius: 6px;
+  line-height: 2.5;
+}
+h4{
+  line-height: inherit;
 }
 
 .form-control:focus {
@@ -187,6 +193,37 @@ p {
   flex: 0 0 auto;
   width: 50%;
 }
+.custom-select {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background: white url('data:image/svg+xml;charset=US-ASCII,%3Csvg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16"%3E%3Cpath fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/%3E%3C/svg%3E') no-repeat right 10px center;
+  background-size: 10px 10px;
+  padding: 10px;
+  padding-right: 30px; /* Space for the arrow */
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+  font-size: 16px;
+  color: #495057;
+}
+
+.custom-select:focus {
+  border-color: #3DB166;
+  box-shadow: 0 0 0 0.2rem rgba(61, 177, 102, 0.25);
+}
+
+
+.bg-light {
+  --bs-bg-opacity: 1;
+  background-color: rgb(224 224 224) !important;  
+}
+.p-4{
+  padding: 4rem!important;
+}
+h6{
+  line-height: 1.7;
+}
+
 @media (max-width: 576px) { /* Extra small devices (phones, 576px and down) */
   .container{
     max-width:100%;
