@@ -138,7 +138,7 @@ function App() {
     </Col>
     <Col md={6}>
             <Form>
-              <Row className="mb-3">
+              <Row >
                 <Col xs={12} md={6}>
                   <Form.Group controlId="formName">
                     <Form.Control type="text" placeholder="Your Name" />
