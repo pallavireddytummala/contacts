@@ -10,11 +10,11 @@ import '@fortawesome/fontawesome-free/css/all.css';
 
 function App() {
   return (
+    
     <Container fluid style={{ paddingLeft: 0, paddingRight: 0 }}>
       <Header /> 
       <Row className="my-4">
         <Col className="text-center">
-          <h1>Contact Us</h1>
         </Col>
       </Row>
       <Container className="contact-section">
