@@ -9,6 +9,7 @@
   position: relative;
 }
 
+
 .header-content {
   width: 80%; /* Match .content width */
   margin: 0 auto; /* Center horizontally */
@@ -112,7 +113,7 @@
   }
 
   .header-content {
-    width: 100%; /* Adjust width for smaller screens */
+    width: 90%; /* Adjust width for smaller screens */
     left: 5%; /* Further adjust for smaller screens */
   }
 
