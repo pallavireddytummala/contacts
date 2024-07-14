@@ -15,7 +15,7 @@ body {
 /* Container styles */
 .container {
   max-width: 80%;
-  margin: 0 auto;
+
  
 }
 
@@ -303,5 +303,10 @@ h6{
   }
   .contact-item:not(:last-child) {
     border-right: 1px solid #ffffff; /* Grey partition line */
+  }
+}
+@media (min-width: 576px) {
+  .container, .container-sm {
+      max-width: 90%;
   }
 }
