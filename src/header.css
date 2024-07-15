@@ -48,7 +48,7 @@
 }
 
 .header-info {
-  font-size: 0.7em; /* Smaller font size */
+  font-size: 1em; /* Smaller font size */
   color: rgba(255, 255, 255, 0.7); /* Less bright white color */
   margin-bottom: 5px; /* Space between this text and the heading */
   text-align: left; /* Left-align the breadcrumb text */
